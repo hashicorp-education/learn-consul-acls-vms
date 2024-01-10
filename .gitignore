@@ -11,7 +11,6 @@ logs/**
 # Ignore docs files
 docs/**
 
-
 # Ignore scripts in the runbooks folder for now
 runbooks/*.sh
 
@@ -28,6 +27,7 @@ terraform.tfstate*
 # Ignore Instruqt related files
 **/instruqt/**
 **/instruqt/
+**/build_images_x86_instruqt.sh
 
 *.DS_Store
 # **/logs/**
